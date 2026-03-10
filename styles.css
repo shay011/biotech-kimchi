@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center ;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(166, 80, 80);
+}
+header img{
+    width: 90px;
+    height: 50px;
+}
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(kimchi.jpg);
+}
+section.home img{
+    height: 300px;
+    border-radius: 20px;
+}
+section.project{
+    height: 800px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(96, 47, 47);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+section.tutorial{
+    height: 800px;
+    text-align: center;
+    color:rgb(252, 252, 252);
+    background-color: rgb(159, 133, 133);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+section.profile{
+    height: 800px;
+    text-align: center;
+    color: rgb(157, 62, 62);
+}
+.kotakbio{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.namabio{
+    font-size: 50px;
+    color: antiquewhite;
+}
+.deskbio{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+section.project img{
+    height: 300px;
+    border-radius: 20px;
+}
+.deskproject{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+}
+section.tutorial{
+    height: 640px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tutorial img{
+    height: 500px;
+    border-radius: 20px;
+}
+.desktutorial{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.dokumetasi{
+    margin: 20px;
+}
+section.profile{
+    background-image: url(me.jpeg)
+}
+.cardprofile{
+    background-color: rgba(255, 255, 255, 0.847);
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.imgprofile img{
+    width: 100%;
+    border-radius: 50%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+    color: rgb(142, 60, 60);
+}
+.banner a{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+nav a{
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+}
+nav a:hover{
+    background-color: rgb(109, 30, 30);
+    transition: 1s;
+    border-radius: 10px;
+    width: 20px;
+    padding: 5px;
+}
